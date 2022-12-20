@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+ <head>
+ <link rel="shortcut icon" type="image/x-icon" href="{% static 'css/favicon.ico' %}">
+  <meta charset="utf-8">
+  <title>Mafia online</title>
+  <style>
+body {
+background-image: url({% static 'css/фон1.jpg' %});
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+</style>
+  </style>
+ </head>
+ <body>
+<p style="position: absolute;
+	width: 22%;
+	max-width: 350px;
+	top: 7%;
+	color: #FF1493;
+	font-style: oblique 40deg;
+	font-size: 150%;
+	font-family: Trebuchet Ms;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #000, 0px 0px 15px #000, 0px 0px 20px #000, 0px 0px 25px #000, 0px 0px 30px #000; /* Параметры тени */
+	padding-top: 30px;
+	left:50px;">Вы просили, а мы сделали. Лучшая многопользовательская игра “Мафия” по версии Forbes.</p>
+  <p>
+   <p style="position: absolute;
+	width: 22%;
+	max-width: 350px;
+	top: 7%;
+	color: #FF1493;
+	font-style: oblique 40deg;
+	font-size: 150%;
+	font-family: Trebuchet Ms;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #000, 0px 0px 15px #000, 0px 0px 20px #000, 0px 0px 25px #000, 0px 0px 30px #000; /* Параметры тени */
+	padding-top: 30px;
+	right:50px;">Лучшая команда web-разработчиков группы 49 снова создала грандиозный проект, покоривший миллионы сердец.</p>
+  <p>
+   <a href="http://127.0.0.1:8000/chat/"><img src="{% static 'css/чат.png' %}"style="position:absolute; left:800px; top: 600px;" />
+></a>
+<img src="{% static 'css/logo.png' %}"style="position:absolute; left:750px; top: 0px;" />
+  </p>
+  <a><img src="{% static 'css/кот.gif' %}" width="250" height="250" style="position:absolute; left:0px; top: 675px;" />
+></a>
+ </body>
+</html>
